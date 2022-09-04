@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text-color{
+    color: #FBA24F;
+}
+
+.mb-text{
+    margin-bottom: 40px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.flexible-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-left{
+    width: 40%;
+}
+
+.banner-right{
+    width: 40%;
+}
+.banner-left img{
+    margin-left: 200px;
+    width: 55%;
+}
+.banner-right img{
+    width: 100%;
+}
+
+.bg-banner{
+    background-image: url(images/Frame\ 58.jpg);
+    background-size: cover;
+}
+
+.text-center{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
+
+.recipes-card{
+    display: flex;
+    margin: 40px 17%;    
+}
+
+.card{
+    width: 400px;
+    height: 380px;
+    padding: 10px;
+    margin: 0 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.card img{
+    width: 385px;
+    height: 225px;
+}
+
+.card img{
+    width: 385px;
+    height: 225px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.bg-color{
+    background-color: linen;
+    padding: 50px 0px;
+}
+
+.followers{
+    display: flex;
+    margin: 80px 380px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.box{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.color-gray{
+    color:  #5B5B5B;;
+}
+
+footer{
+    background-color: #0B0D17;
+    padding: 50px 0;
+}
